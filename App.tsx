@@ -56,7 +56,7 @@
  };
 
  const App = () => {
-   const isDarkMode = useColorScheme() === 'dark';
+   const isDarkMode = useColorScheme() === 'light';
 
    const backgroundStyle = {
      backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
